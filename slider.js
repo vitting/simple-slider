@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });    
     }
-    
+    //Vi sætter en animation lock hvis der er en animation igang i animationstart
     function sliderAuto() {
         let interval = setInterval(() => {
             const data = getSliderImageData();
